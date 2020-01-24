@@ -1,0 +1,141 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        </div>
+    <div class="jumbotron">
+        <div class="container">
+        <div class="dropdown">
+            <select class="btn btn-primary" >
+                    <option class="btn btn-default" value="volvo">Marraige</option>
+                    <option class="btn btn-default"  value="saab">Birthday Party</option>
+                    <option class="btn btn-default"  value="opel">Family Function</option>
+                    <option class="btn btn-default"  value="audi">Audi</option>
+            </select>
+        </div>
+        </div>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        </div>
+    
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <style>
+        body,html {
+                height: 100%;
+                margin: 0%
+                }
+                .bg-img{
+                        background-image: url("assets/images/background.jpeg");
+
+                height: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                }
+        </style>
+</head>
+<body>
+        <!-- <div class="bg-img"> </div> -->
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            </div>
+           
+        <div style="margin-top: 90px;">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="jumbotron" style="opacity: 0.9; background-color: aliceblue; height: 780px; width: 400px">
+
+                                <div class="container">
+                                        <form (ngSubmit)="onAdd()">
+                                                        <h2 style="text-align: center">Event Details</h2>
+                                                        <div class="row">
+                                                        <div class="col-md-3"></div>
+                                                        <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                        <select class="btn btn-primary" >
+                                                                                <option class="btn btn-default" value="volvo">Marraige</option>
+                                                                                <option class="btn btn-default"  value="saab">Birthday Party</option>
+                                                                                <option class="btn btn-default"  value="opel">Family Function</option>
+                                                                              
+                                                                        </select>
+                                                                </div>
+                                            
+                                                                <div class="form-group">
+                                                                <label for="">Event Date</label>
+                                                                <input type="date" class="form-control" id="email" name="email">     
+                                                                </div>
+                                                                <div class="form-group">
+                                                                        <select class="btn btn-primary" >
+                                                                                <option class="btn btn-default" value="volvo">Pune</option>
+                                                                                <option class="btn btn-default"  value="saab">Mumbai</option>
+                                                                                <option class="btn btn-default"  value="opel">Goa</option>
+                                                                                <option class="btn btn-default"  value="opel">Aurangabad</option>
+                                                                              
+                                                                        </select>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                        <select class="btn btn-primary" >
+                                                                                <option class="btn btn-default" value="volvo">Taj Hotel</option>
+                                                                                <option class="btn btn-default"  value="saab">Gangabhagyoday Hall</option>
+                                                                                <option class="btn btn-default"  value="opel">Greenland</option>       
+                                                                        </select>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                <label for="">Enter no of veg guest</label>
+                                                                <input type="number" class="form-control" id="vguest" name="vguest">         
+                                                                </div>
+                                                                <div class="form-group">
+                                                                        <label for="">Enter no of non-veg guest</label>
+                                                                        <input type="number" class="form-control" id="nvguest" name="nvguest">         
+                                                                        </div>
+                                                                <div class="form-group">
+                                                                <label for="">Time period</label>
+                                                                <input type="number" class="form-control" id="time" name="time"> 
+                                                                </div>
+                                                                <div class="form-group">
+                                                                        <label for="">Decoration Budget</label>
+                                                                        <input type="number" class="form-control" id="decoration" name="decoration"> 
+                                                                </div>
+                                                                <div class="checkbox">
+                                                                     
+                                                                        <label class="checkbox-inline"><input type="checkbox" value="">Theming</label>
+                                                                        <label class="checkbox-inline"><input type="checkbox" value="">Music System</label>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                        <label for="">Total Cost </label>
+                                                                        <input readonly type="number" class="form-control" id="cost" name="cost"> 
+                                                                </div>
+                                                        
+                                                                <div class="form-group">
+                                                                <button type="submit" class="btn btn-success">Submit</button>    
+                                                                </div>
+                                                        </div>
+                                                        </div>
+                                                </form>
+                                
+                        </div>
+                        </div>
+                        </div>
+        </div>
+                       
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        
+                                </div>  
+                         
+</body>
+</html>

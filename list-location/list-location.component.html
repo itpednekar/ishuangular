@@ -1,0 +1,34 @@
+<div  class="jumbotron">
+        <h1 style="text-align: center;">Location Details</h1>
+        <hr>
+        <a class="btn btn-primary" href="/insert-location">Insert New Location</a>
+        <hr>
+            <table style="align-content: center;" class="table table-hover table-stripped table-responsive">
+                    <thead>
+                        <th>Location Id</th>
+                        <th >Location Name</th>
+                        <th >Location Cost</th>
+                        <th >Venue City</th>
+                            <th></th>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of location">
+                            <td>{{item.locationId}}</td>  
+                            <td>{{item.locationName}}</td>   
+                            <td>{{item.locationCost}}</td>
+                            <td>{{item.venueCity.venueCityName}}</td>
+                            <td>
+                                <a class="btn btn-danger" routerLink="/delete-location/{{item.locationId}}"> Delete </a>
+                            </td>
+                            <td>
+                                <a class="btn btn-primary" routerLink="/edit-location/{{item.locationId}}"> Edit </a>
+                            </td>
+                        </tr>         
+                    </tbody>
+            </table>
+          
+    </div>
+    
+    
+    
+    

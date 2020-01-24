@@ -1,0 +1,36 @@
+
+ <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    </div>
+  
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+           <form #myForm = "ngForm"  (ngSubmit)="onInsert(myForm)">
+                   <h2>Insert New Location</h2>
+                   <hr>
+                   <div class="form-group">
+                   <label for="">Location Name</label>
+                   <input type="text" class="form-control" id="locationName" 
+                          name="locationName" ngModel>
+                   </div>
+                   <div class="form-group">
+                        <label for="">Location Cost</label>
+                        <input type="text" class="form-control" id="locationCost" 
+                               name="locationCost" ngModel>
+                    </div>
+                    <div class="form-group">
+                            <label for="">Venue City Id</label>
+                            <input type="text" class="form-control" id="venueCity" 
+                                   name="venueCity" ngModel>
+                    </div>
+                    <div class="form-group">
+                            <label for="">Location Image</label>
+                            <input type="text" class="form-control" id="locationImage" 
+                                   name="locationImage" ngModel>
+                    </div>
+                   <div class="form-group">
+                   <button type="submit" class="btn btn-success">Insert</button>  
+                   </div>
+               </form>
+    </div>
+     
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+   </div>

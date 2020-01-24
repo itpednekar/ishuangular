@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style>
+ .bg-img {
+  /* The image used */
+  background-image: url("assets/images/background.jpeg");
+
+  min-height: 550px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+body,html{
+  height: 100%;
+}
+</style>
+</head>
+<body class="bg-img"> 
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        </div>
+        <div style="margin-top: 100px;">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="jumbotron"  style="background-color: azure; height: 300px; width: 400px;" >
+                        <h2 style="text-align: center">Login Here</h2>
+                        <div class="container">
+                            <form (ngSubmit)="SignIn()" >
+                                <div class="row">
+                                    <div class="col-md-3"></div>
+                                    <div class="col-md-6">
+                                      <div class="form-group">
+                                        <label for="">Email</label>
+                                        <input type="text" class="form-control" 
+                                                id="u_email" name="u_email"  [(ngModel)] = "userdetails.email">
+                                      </div>
+                                      <div class="form-group">
+                                          <label for="">Password</label>
+                                          <input type="password" class="form-control" 
+                                                  id="u_password" name="u_password"  [(ngModel)] = "userdetails.password">
+                                      </div>   
+                                      <div class="form-group">
+                                          <button class="btn btn-success" type="submit">Login</button> 
+                                      </div>
+                                    </div>
+                                  </div>
+                            </form> 
+                        </div>     
+                </div>
+         </div> 
+        </div>
+  
+ <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    </div>
+
+</body>
+</html>

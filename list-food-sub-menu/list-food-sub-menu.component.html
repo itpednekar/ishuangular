@@ -1,0 +1,35 @@
+<div  class="jumbotron">
+        <h1 style="text-align: center;">List of Food SubMenu</h1>
+        <hr>
+        <a class="btn btn-primary" href="/insert-location">Insert New Location</a>
+        <hr>
+            <table style="align-content: center;" class="table table-hover table-stripped table-responsive">
+                    <thead>
+                        <th>Food SubMenu Id</th>
+                        <th >SubMenu Name</th>
+                        <th >Cost</th>
+                        <th >Food Type</th>
+                        <th >Category</th>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of foodSubMenu">
+                            <td>{{item.foodSubMenuId}}</td>  
+                            <td>{{item.subMenu}}</td>   
+                            <td>{{item.cost}}</td>
+                            <td>{{item.food.foodType}}</td>
+                            <td>{{item.food.category}}</td>
+                            <td>
+                                <a class="btn btn-danger" routerLink="/delete-location/{{item.locationId}}"> Delete </a>
+                            </td>
+                            <td>
+                                <a class="btn btn-primary" routerLink="/edit-location/{{item.locationId}}"> Edit </a>
+                            </td>
+                        </tr>         
+                    </tbody>
+            </table>
+          
+    </div>
+    
+    
+    
+    

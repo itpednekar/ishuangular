@@ -1,0 +1,19 @@
+
+
+<div  class="jumbotron">
+    <h1 style="text-align: center;">Clients Feedbacks</h1>
+        <table style="align-content: center;" class="table table-hover table-stripped table-responsive">
+                <thead>
+                    <th >Feedback Date</th>
+                    <th >Description</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of feedback">
+                        <td>{{item.feedbackDate}}</td>   
+                        <td>{{item.desc}}</td>
+                    </tr>         
+                </tbody>
+              </table>
+</div>
+
+
