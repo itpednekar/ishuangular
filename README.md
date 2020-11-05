@@ -14,13 +14,10 @@
 - [ Vercel ](https://vercel.com/)
 ---
 ## Shopping Cart Screenshots
-<img width="913" alt="Home Page" src="https://user-images.githubusercontent.com/58209938/98240054-dee07080-1f8e-11eb-847b-d44815fa8915.PNG">
-![screencapture-clone-a9c11-web-app-product-details-2-2020-11-05-13_54_17](https://user-images.githubusercontent.com/58209938/98240166-06cfd400-1f8f-11eb-941f-a37c42b39039.png)
-![screencapture-clone-a9c11-web-app-cart-2020-11-05-14_46_22](https://user-images.githubusercontent.com/58209938/98240214-151df000-1f8f-11eb-81c8-699ceb5ecbd8.png)
-![screencapture-clone-a9c11-web-app-place-order-2020-11-05-13_58_33](https://user-
-![screencapture-clone-a9c11-web-app-register-2020-11-05-13_59_50](https://user-images.githubusercontent.com/58209938/98240331-426a9e00-1f8f-11eb-9ba3-a5df924fceaa.png)
-images.githubusercontent.com/58209938/98240265-28c95680-1f8f-11eb-90d7-28a344c79eed.png)
-![screencapture-clone-a9c11-web-app-sign-in-2020-11-05-13_59_05](https://user-images.githubusercontent.com/58209938/98240287-32eb5500-1f8f-11eb-8448-51ec491d6386.png)
+<img width="913" alt="Home Page" src="https://user-images.githubusercontent.com/58209938/98251858-47374e00-1f9f-11eb-9013-9bb6b1c42106.PNG">
+![screencapture-clone-a9c11-web-app-product-details-2-2020-11-05-13_54_17](https://user-images.githubusercontent.com/58209938/98251962-6c2bc100-1f9f-11eb-875f-0738a83bdf0f.png)
+![screencapture-clone-a9c11-web-app-cart-2020-11-05-14_46_22](https://user-images.githubusercontent.com/58209938/98252028-7f3e9100-1f9f-11eb-9227-1287223659e2.png)
+![screencapture-clone-a9c11-web-app-place-order-2020-11-05-13_58_33](https://user-images.githubusercontent.com/58209938/98252086-8c5b8000-1f9f-11eb-9830-9b75cb6d8327.png)
 
 ---
 ## Use following command to use code.
