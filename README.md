@@ -4,13 +4,13 @@
 
 ---
 
-## [:heavy_check_mark: Live Preview :zap:](https://shopping-cart-react-app.vercel.app/)
+## [:heavy_check_mark: Live Preview :zap:](https://shopping-cart-app.vercel.app/)
 
 ---
 
 ### `Used Libraries / Packages`
 
-- [:white_check_mark: React ](https://reactjs.org/docs/create-a-new-react-app.html)
+- [ React ](https://reactjs.org/docs/create-a-new-react-app.html)
 - [ Vercel ](https://vercel.com/)
 ---
 ## Shopping Cart Screenshots
